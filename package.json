@@ -1,0 +1,14 @@
+{
+  "name": "elemecheerio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "rm -rf menu.txt && node app.js >> menu.txt & tail -f menu.txt"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+  }
+}
